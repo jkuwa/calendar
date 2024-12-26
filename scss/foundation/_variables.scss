@@ -21,9 +21,20 @@
   }
 }
 
+// font
+@mixin inter() {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+}
+
 
 // ============================================================
 // variables
 // ============================================================
 
+// color
+$black-color: #000;
+$red-color: #BE1919;
+$gray-color: #767676;
+$white-color: #F0F0F0;
 

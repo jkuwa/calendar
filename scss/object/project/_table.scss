@@ -1,0 +1,31 @@
+@use "../../foundation/variables" as *;
+
+/* ----- table ----- */
+.p-table {
+  padding: 8px;
+  background-color: $white-color;
+
+  span {
+    width: 25.7px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  thead {
+    th {
+      padding-bottom: 6px;
+      border-bottom: 1px solid $gray-color;
+      @include inter();
+    }
+  }
+  tbody {
+    tr {
+      margin-top: 6px;
+    }
+    td {
+      span {
+        margin-top: 5px;
+      }
+    }
+  }
+}

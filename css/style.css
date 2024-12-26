@@ -20,10 +20,13 @@ html {
 body {
   min-width: 320px;
   width: 100%;
-  font-size: 1.6rem;
+  color: #000;
+  font-family: "Noto Sans", serif;
+  font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 400;
   font-style: normal;
+  font-variation-settings: "wdth" 100;
   overflow-x: hidden;
 }
 
@@ -38,5 +41,33 @@ a {
 }
 a:hover {
   opacity: 0.7;
+}
+
+/* ----- color ----- */
+.c-red {
+  color: #BE1919;
+}
+
+/* ----- table ----- */
+.p-table {
+  padding: 8px;
+  background-color: #F0F0F0;
+}
+.p-table span {
+  width: 25.7px;
+  display: inline-block;
+  text-align: center;
+}
+.p-table thead th {
+  padding-bottom: 6px;
+  border-bottom: 1px solid #767676;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+}
+.p-table tbody tr {
+  margin-top: 6px;
+}
+.p-table tbody td span {
+  margin-top: 5px;
 }
 /*# sourceMappingURL=style.css.map */
